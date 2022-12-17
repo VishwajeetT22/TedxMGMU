@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: orbitron;
+    src: url(orbitron-master/Orbitron\ Medium.ttf);
+}
+
+
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.821);
+}
+.container{
+    background-color:rgb(11, 26, 31);
+    font-family: "orbitron";
+}
+
+/* Navbar section*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px rgb(201, 44, 44);
+}
+
+#nav-title {
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.5em;
+}
+
+#nav-title #p1{
+    color: red;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: rgba(255, 0, 0, 0.778);
+}
+
+
+/* Navbar section */
+
+.image{
+    width:100%;
+    height: 100vh;
+    /* display: flex;
+    justify-content:flex-start;
+    align-items: center; */
+    color: rgba(255, 255, 255, 0.9);
+  
+
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.437),rgba(0, 0, 0, 0.437)), url(images/bulb.jpg);
+}
+
+
+#theme{
+    display: inline-block;
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 5rem;
+}
+
+#theme:hover{
+    animation-delay:100ms;
+    color: red;
+    
+}
+/* about section */
+
+#about-sec{
+    height: 50vh;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.73);
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0.2rem;
+    line-height: 1.5;
+}
+
+#about-sec div{
+    /* width: 80%; */
+   padding:15px 20px 15px;
+}
+
+#about-sec div h1{
+    padding-bottom: 20px;
+
+}
+
+#about-sec div #sp1{
+    color:red;
+}
+
+/* about section */
+
+/* speaker section */
+
+#speaker-sec{
+    border-top: solid 40px white;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.speakers{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#speaker-sec h1{
+    color: red;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.card img{
+    width:50%;
+    border: solid 2px black;
+}
+
+.speakers .card{
+    padding: 20px;
+    text-align: center;
+  
+    
+}
+
+.speakers .card h3{
+    display:block;
+}
+
+/* footer */
+
+footer{
+    height: 30vh;
+    color: white;
+    background-color: black;
+    border-top:40px solid white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+footer img{
+    margin-top:30px;
+    width:40px;
+    padding-left:25px;
+    text-align: center;
+}
+
+.links{
+   display: flex;
+   align-items: center;
+  justify-content: center;
+}
+
+footer p{
+    margin-top: 10px;
+ text-align: center;
+}
