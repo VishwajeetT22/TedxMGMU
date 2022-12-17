@@ -1,3 +1,3 @@
 # Tedxmgmu
 
-<a href="https://vishwajeett22.github.io/Tedxmgmu/">Click to visit the site</a>
+<a href="https://vishwajeett22.github.io/TedxMGMU/">Click to visit the site</a>
